@@ -2,11 +2,13 @@
 
 import React from 'react';
 import '../pages/HomePage.css';
-import UniversityCommonsImage from '../images/University_Commons.png';
-import UniversityVillageImage from '../images/University_Village.png';
-import CanyonCreekHeightsImage from '../images/Canyon_Creek_Heights.png';
+import UniversityCommonsImage from '../assets/images/University_Commons.png';
+import UniversityVillageImage from '../assets/images/University_Village.png';
+import CanyonCreekHeightsImage from '../assets/images/Canyon_Creek_Heights.png';
+import ReviewPage from '../pages/ReviewPage';
 
 const HomePage = () => {
+
   return (
     <>
       <div className="containerHome">
@@ -40,7 +42,7 @@ const HomePage = () => {
                 <p><a href="#">5. Phase 5</a></p>
                 <p><a href="#">6. Phase 6</a></p>
                 <p><a href="#">7. Phase 7</a></p>
-                <p><a href="#">8. Phase 8</a></p>
+                <p><a href={<ReviewPage />}>8. Phase 8</a></p>  {/* NOT SURE IF I LINKED THIS RIGHT */}
               </div>
             </div>
           </div>

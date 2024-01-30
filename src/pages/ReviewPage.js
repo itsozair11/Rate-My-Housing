@@ -1,12 +1,12 @@
-import './pages/ReviewPage.css';
+import '../pages/ReviewPage.css';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import reactLogo from "./dorms.jpg";
-import reactLogo2 from "./door.jpg";
-import reactLogo3 from "./lr1.jpg";
-import reactLogo4 from "./uvb.jpg";
-import reactLogo5 from "./dust.jpg";
+import reactLogo from "../assets/images/dorms.jpg";
+import reactLogo2 from "../assets/images/door.jpg";
+import reactLogo3 from "../assets/images/lr1.jpg";
+import reactLogo4 from "../assets/images/uvb.jpg";
+import reactLogo5 from "../assets/images/dust.jpg";
 
 
 const ReviewPage = () => {
