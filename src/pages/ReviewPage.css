@@ -1,0 +1,296 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .review-page{
+    width: 10%;
+    padding-right: 15%;
+  }
+  
+  h2{
+    font: arial;
+    font-size: x-large;
+    font-weight: 750;
+  }
+  
+  h3{
+    font-size: small;
+    font-weight: 700;
+    font: arial;
+  }
+  
+  h4{
+    font-size: larger;
+    font-weight: 700;
+    font: arial;
+  }
+  
+  h6{
+    font-size: x-large;
+    font-weight: 900;
+    font: arial;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(50, 60, 66); /* Choose a background color */
+    color: #fff; /* Choose a text color */
+    height: 5%;
+    width: 5438014vh;
+  }
+  
+  .p1{
+    font-size: medium;
+    font-weight: 600;
+    font: arial;
+  }
+  
+  p{
+    font-weight: 550;
+    font-size: medium;
+    font: arial;
+  }
+  
+  .review-page {
+    display:flex;
+    height: 300vh; 
+    background-color: #A9D2E9;
+    background-size: cover;
+    width: 110%;
+  }
+  
+  
+  .sidebar {
+    width: 40%;
+    background-size: cover;
+    background-color: #C5E2F2;
+    padding: 40px;
+  }
+  
+  
+  
+  .overall-rating {
+    text-align: center;
+  }
+  
+  
+  .main-content {
+    width: -90%;
+    padding: 20px;
+    height: 100%; /* 100% of parent's height */
+    font: arial;
+  }
+  
+  .main-content-two{
+    height: 100%;
+    font: arial;
+    padding: 20px;
+    width: 85%;
+  
+  }
+  
+  .review-box {
+    width: 70%; /* Adjust the size as needed */
+    height: 60%; /* Adjust the size as needed */
+    border: 2px solid #000;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px; /* Add rounded border */
+  }
+  
+  .review-box-two{
+    height: 60%;
+    border: 2px solid #000;
+    position: absolute;
+    top: 120%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px; /* Add rounded border */
+    left: 60%;
+    width: 70%; /* Adjust the size as needed */
+  
+  }
+  
+  .review-box-three{
+    height: 60%;
+    border: 2px solid #000;
+    position: absolute;
+    top: 190%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px; /* Add rounded border */
+    left: 60%;
+    width: 70%; /* Adjust the size as needed */
+  
+  }
+  
+  .review-box-four{
+    height: 60%;
+    border: 2px solid #000;
+    position: absolute;
+    top: 260%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px; /* Add rounded border */
+    left: 60%;
+    width: 70%; /* Adjust the size as needed */
+  }
+  
+  .review-box-five{
+    height: 310%;
+    border: 2px solid #000;
+    position: absolute;
+    top: 155%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px; /* Add rounded border */
+    left: 115%;
+    width: 31%; /* Adjust the size as needed */
+    background-color: #A9D2E9;
+  
+  }
+  
+  
+  .review-info {
+    border:0cap;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 75%;
+    margin-left: 18%;
+    margin-top: -15%;
+  }
+  
+  .review-info-two{
+    border:0cap;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 75%;
+    margin-left: 18%;
+    margin-top: -15%;
+  }
+  
+  
+  .overall-info {
+    border: 1px solid #000;
+    border-radius: 10px; /* Add rounded border */
+    padding: 10px;
+    margin-top: 3%;
+    width: 8%;
+    height: 23%;
+    margin-left: 2%;
+    padding-left: 4%;
+  }
+  
+  .overall-info-two{
+    border: 1px solid #000;
+    border-radius: 10px; /* Add rounded border */
+    padding: 10px;
+    margin-top: 3%;
+    width: 8%;
+    height: 23%;
+    margin-left: 2%;
+    padding-left: 4%;
+  }
+  
+  
+  .category-box {
+    border: 0px;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 30%;
+    margin-left: 7%;
+  }
+  
+  .category-box-two{
+    border:0cap;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 30%;
+    margin-left: 7%;
+  }
+  
+  .picOne{
+    border:2cap;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 55%;
+    margin-left: 28%;
+    margin-top: -12%;
+  }
+  
+  .picTwo{
+    border:2cap;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 55%;
+    margin-left: 52%;
+    margin-top: -18.9%;
+  }
+  
+  .picThree{
+    border:2cap;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 55%;
+    margin-left: 32%;
+    margin-top: 33%;
+  }
+  
+  .picFour{
+    border:2cap;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 55%;
+    margin-left: 32%;
+    margin-top: 35.5%;
+  }
+  
+  .picFive{
+    border:2px;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 55%;
+    margin-left: 58%;
+    margin-top: 27%;
+  }
+  
+  .rOne{
+    height:180px;
+    width:180px;
+  }
+  
+  .rTwo{
+    height:180px;
+    width:180px;
+  }
+  
+  .rThree{
+    height:180px;
+    width:180px;
+  }
+  
+  .rFour{
+    height:180px;
+    width:180px;
+  }
+  
+  .rFive{
+    height:180px;
+    width:180px;
+  }
+  
+  
+  
+  #dropdown-menu .submenu {
+    display: none;
+  }
+  
+  #dropdown-menu li:hover .submenu {
+    display: block;
+    font-weight: 550;
+    font: arial;
+    font-style: normal;
+  }
+  
+  

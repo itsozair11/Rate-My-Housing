@@ -1,0 +1,80 @@
+/* HomePage.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+
+.home html, body {
+  background-color: #add8e6; /* Light blue color */
+  color: white;
+}
+
+.containerHome {
+  padding: 30px;
+  margin-top: 80px;
+}
+
+.message {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sub-title {
+  color: white;
+  font-size: 65px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-top: 30px; /* Increase the margin-top for a bigger space */
+}
+
+.housing-image {
+  max-width: 95%; /* Adjust the width of each image */
+  margin-right: 60px; /* Adjust the right margin between images */
+}
+
+.main-content {
+  margin: 50px auto; /* Increase the margin for a bigger space */
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around; /* Adjust spacing between images */
+  margin-top: 40px; /* Increase or decrease this value to move images lower */
+  size: 20px;
+}
+
+.middle-text p {
+  color: white;
+}
+
+.image-text {
+  color: white;
+  font-size: 30px; /* Adjust the font size as needed */
+  margin-top: 10px; /* Adjust the margin-top as needed */
+}
+
+.toggle-dropdown {
+  font-size: 60px; /* Adjust the font size as needed */
+  margin-top: 40px; /* Adjust the margin-top to move the dropdown lower */
+}
+
+/* Add margin to create space before options */
+.options {
+  margin-top: 35px; /* Adjust the margin-top for the desired space */
+}
+
+/* Add or modify the styles for the clickable options */
+.options a {
+  color: #4599f2; /* Change to your preferred color */
+  text-decoration: none; /* Remove underline */
+}
+
+.options a:hover {
+  color: #02326a; /* Change to your preferred hover color */
+}
