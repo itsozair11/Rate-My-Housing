@@ -1,17 +1,17 @@
-import '../css/App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes, Link, useNavigate } from 'react-router-dom';
+import SignUp from "./pages/SignUp";
+import SignIn from './pages/SignIn';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a>
-          {/* In order to run this project make sure you are in this directory by using cd in the terminal like cd ratemyhousing.
-              Now once in directory, try running the project in the terminal to help you get used to it by writing npm start in the terminal,
-              and then wait... (the project should run, now play around with things, and start coding) */}
-          Welcome to Rate My Housing! - Start coding!
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SignIn />} />
+        <Route path="/SignIn" element={<SignUp />} />
+        {/* Add other routes as needed */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
