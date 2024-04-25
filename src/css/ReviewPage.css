@@ -1,0 +1,268 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    zoom: .2px;
+    font-family: "inknut antiqua";
+  font-size: 30px
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #666890;
+    margin-bottom: 20px;
+  }
+  
+  
+  .logo {
+    width: 30px; /* Adjust the width of the logo image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .login-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration:wavy;
+    font-family: "inder";
+  }
+  
+  
+  .bigRectangle
+  {
+    width:1200px;
+    height:700px;
+    background-color: #D0D8E7;
+  
+  
+  }
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-family: "inknut antiqua";
+    font-size: 20px;
+   
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* appearance: none; */
+    border-radius: 5px;
+    background: black ;
+    cursor:pointer;
+  }
+  
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .rating {
+    margin-bottom: 10px;
+  }
+  
+  
+  .rating label {
+    margin-right: 10px;
+  }
+  
+  
+  .review
+  {
+    align-items: center;
+    display: flex;
+    margin-top:20px;
+    margin-bottom:30px;
+    margin-left: 500px;
+    font-size: 10px;
+  
+  
+  
+  
+  }
+  .review textarea {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    align-items: center;
+  }
+  
+  
+  /* .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .buttons input[type="file"] {
+    margin-bottom: 10px;
+  } */
+  .textarea-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left:-500px;
+  }
+  
+  
+  .textarea-container label
+  {
+    margin-bottom: 5px;
+    margin-top:5px;
+    font-family: "inknut antiqua";
+    font-size: 30px;
+   
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .rating {
+    margin-top:5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  
+  .rating label {
+    margin-bottom: 5px;
+  }
+  
+  
+  .review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* .textarea-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  } */
+  
+  
+  .textarea-container label {
+    margin-bottom: 5px;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-container button
+  {
+    font-weight: 600;
+    font-family: 'Inder',;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    background-color:white ;
+    margin-top:20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*
+  .button-container upload-button
+  {
+    font-weight: 600;
+    font-family: 'Inder',;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    background-color: white;
+    margin-bottom:90px;
+  
+  
+  } */
+  
+  
+  /* .horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    margin: auto;
+  }
+  .example-thumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background: #ffffff;
+    border: 5px solid #3774ff;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+  }
+  .example-thumb.active {
+    background-color: grey;
+  }
+  .example-track {
+    position: relative;
+    background: #ddd;
+  }
+  .example-track.example-track-0 {
+    background: #83a9ff;
+  }
+  .horizontal-slider .example-track {
+    top: 20px;
+    height: 4px;
+  }
+  .horizontal-slider .example-thumb {
+    top: 12px;
+    width: 10px;
+    outline: none;
+    height: 10px;
+    line-height: 38px;
+  } */
+  

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../css/SignIn.css';
 import ttalogo from '../assets/ttalogo.png';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../config/authfirebase';
+import { auth } from '../config/firebase';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');

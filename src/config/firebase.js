@@ -10,6 +10,7 @@ import { getAuth } from "firebase/auth";
 const firebaseConfig = {
     apiKey: "AIzaSyCVLgfE93zstjSBe2cr8tabgpOong_rHhE",
     authDomain: "ratemyhousing-98264.firebaseapp.com",
+    databaseURL: "https://ratemyhousing-98264-default-rtdb.firebaseio.com/",
     projectId: "ratemyhousing-98264",
     storageBucket: "ratemyhousing-98264.appspot.com",
     messagingSenderId: "493054559658",
@@ -20,3 +21,4 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+//export const database = firebaseConfig.database();

@@ -1,0 +1,144 @@
+.App {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    zoom: .9;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #666890;
+    margin-bottom: 20px;
+  }
+  
+  
+  .logo {
+    width: 30px; /* Adjust the width of the logo image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .login-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration:wavy;
+    font-family: "inder";
+  }
+  
+  
+  .star {
+    display: inline-block;
+    vertical-align: right;
+    margin-right: 60px; /* Adjust margin as needed */
+  }
+  
+  
+  .leftRectangle {
+    width: 200px;
+    position: relative;
+    height: auto;
+    background-color: #D0D8E7;
+    position: absolute;
+    left: 0;
+    border: 4px solid black;
+  }
+  
+  
+  .leftRectangle h4 {
+    font-size: 20px;
+    font-family: 'inknut antiqua';
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  .leftRectangle h7 {
+    font-size: 25px;
+    font-family: 'inknut antiqua';
+    color: black;
+    text-align: center;
+    margin-bottom: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    margin-left: 60px;
+  }
+  
+  
+  .mainRectangle {
+    width: 1250px;
+    height: 200px;
+    margin-top: 0px;
+    border: 4px solid black;
+  }
+  
+  
+  .mainRectangle h1 {
+    font-size: 50px;
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'inknut antiqua';
+  }
+  
+  
+  .reviewContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  .review {
+    width: 900px;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid black;
+    margin-left:200px;
+  }
+  
+  
+  .reviewImage {
+    width: 100%;
+    height: auto;
+    margin-right:20px;
+  }
+  
+  
+  .ratings {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .reviewText {
+    margin-top: 10px;
+  }
+  .submit-review-button {
+    background-color: #666890; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Button text size */
+    font-family: "inder";
+    cursor: pointer; /* Cursor style on hover */
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    margin-top:50px;
+    margin-left: 40px;
+  }
+  
+  
+  .submit-review-button:hover {
+    background-color: #D0D8E7; /* Darker color on hover */
+    color: black;
+  }
+  

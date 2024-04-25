@@ -1,0 +1,207 @@
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    /* margin-top: 20px; Add margin from the top of the webpage */
+  
+  
+  }
+  
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between image wrappers */
+    align-items: center;
+    width: 100%; /* Ensure full width */
+    margin-top: 20px; /* Add space between images and top of the page */
+    margin-top: 20px; /* Add margin on top */
+    margin: 0 40px;
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  
+  .image-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10px; /* Add margin around each image */
+      width: 25%; /* Make each image wrapper 25% of its parent container */
+    }
+   
+    .image-wrapper:not(:last-child) {
+      margin-right: 10px; /* Add margin to the right of each image wrapper except the last one */
+    }
+  
+  
+  
+  
+  
+  
+  img {
+    width: 95%; /* Make the image fill its container */
+  }
+  
+  
+  /* .image-text {
+    color: blue;
+    font-size: 18px;
+    margin-top: 10px; /* Add some margin between image and text }
+  
+  
+  .image-text {
+    color: blue;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  
+  .image-text {
+    color: blue;
+    font-size: 18px;
+    margin-top: 10px;
+  } */
+  
+  
+  .phases-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  
+  .phases {
+    text-align: center;
+  }
+  
+  
+  .category-heading {
+    font-weight: bold;
+    font-family: "Inknut Antiqua";
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the text vertically */
+    align-items: center; /* Center the text horizontally */
+    margin-left: 10
+  
+  
+  }
+  .UC
+  {
+    align-items:left;
+  
+  
+  }
+  
+  
+  .UV
+  {
+    align-items: middle;
+  }
+  
+  
+  .CC
+  {
+    align-items: right;
+  }
+  
+  
+  .phase {
+    width: 100px;
+    height: 25px;
+    font-family: "Inknut Antiqua";
+    background-color: #D0D8E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin: 50px;
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto; /* Allow the width to adjust based on content */
+      padding: 10px; /* Add padding to the rectangle */
+      margin: 5px; /* Add margin around each rectangle */
+      border: 1px solid black; /* Add border to the rectangle */
+      /* border-radius: 10px; */
+  
+  
+  
+  
+  }
+  
+  
+  .phase p {
+    color: black;
+    margin: 0;
+  }
+  
+  
+  .image-container
+  {
+    display: flex
+  }
+  
+  
+  .image-container img {
+    margin-right: 10px; /* Add margin to the right of each image */
+  }
+  
+  
+  /* Adjust margin for the last image to prevent extra space */
+  .image-container img:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #666890;
+    margin-bottom: 20px;
+  }
+  
+  
+  .logo {
+    width: 30px; /* Adjust the width of the logo image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  /* .home-button {
+    padding: 10px 20px;
+    background-color: #666890;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: wavy;
+    font-family: "inder";
+   } */
+  
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #666890;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration:wavy;
+    font-family: "inder";
+  }
+  
+  
+  
+  
+  .heading
+  {
+    font-family:"inknut antiqua";
+    text-align: center;
+  }
+  
