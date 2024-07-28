@@ -5,6 +5,8 @@ import SignIn from './pages/SignIn';
 import UVPage from './pages/UVPage';
 import ReviewPage from './pages/ReviewPage';
 import WelcomePage from './pages/WelcomePage';
+import Capella from './pages/Capella';
+import Account from './pages/Account';
 {/*import WriteReview from './pages/WriteReview';*/}
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Route path="/pages/WelcomePage" element={<WelcomePage />} />
         <Route path="/pages/UVPage" element={<UVPage />} />
         <Route path="/pages/ReviewPage" element={<ReviewPage />} />
+        <Route path="/Capella" element={<Capella />} />
+        <Route path="/Account" element={<Account />} />
         {/*<Route path="/pages/WriteReview" element={<WriteReview />} />
         <Route path="/component/" element={<WelcomePage />} />
         {/* Add other routes as needed */}

@@ -1,11 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../css/WelcomePage.css'; // Import the CSS file for styling
 import UC from "../assets/UC.png";
 import UV from "../assets/UV.png";
 import CC from "../assets/CC.jpg";
 import logo from "../assets/ttalogo.png";
+import Navbar from './Navbar'; 
+
 
 const WelcomePage = () => {
+  const navigate = useNavigate();
   return (
     <div className="welcome-page">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,11 +19,8 @@ const WelcomePage = () => {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Inder&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
       <div className="centered-text">
-      <header className="header">
-      <img src={logo} alt="Logo" className="logo" />
-      {/* <button className="home-button">Home</button> */}
-      <button className= "login-button"> Login</button>
-    </header>
+     
+    <Navbar/>
     <h1 className="heading"> Housing Options </h1>
         <div className="image-container">
           <div className="UCImage">
@@ -42,9 +43,9 @@ const WelcomePage = () => {
         <div className="phases">
           <div className="UC">
           <p className="category-heading">University Commons Phases</p>
-          <div className="phase">
-            <p>Capella Hall</p>
-          </div>
+         
+          <button className="phase" onClick={() => navigate('/capella')}>Capella Hall</button>
+         
           <div className="phase">
             <p>Andromeda Hall</p>
           </div>
